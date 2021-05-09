@@ -1,5 +1,9 @@
 # spring-palindrome
 
+This little Spring Boot app lets you check if a given string is a palindrome.
+You can fill the form on the main page or send a GET request like `http://page/get/string.
+
+
 ## Jenkins Continuous Integration with Docker containers
 ### Initial setup:
 - If you don't have Docker installed already: https://docs.docker.com/engine/install/ubuntu/ (assuming you are running Ubuntu)
