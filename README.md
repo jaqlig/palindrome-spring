@@ -1,7 +1,7 @@
 # spring-palindrome
 
 This little Spring Boot app lets you check if a given string is a palindrome.
-You can fill the form on the main page or send a GET request like `http://page/get/string.
+You can fill the form on the main page or send a GET request like `http://page/get/string`.
 
 
 ## Jenkins Continuous Integration with Docker containers
@@ -21,8 +21,8 @@ You can fill the form on the main page or send a GET request like `http://page/g
 
 ### Jenkins and Docker integration:
 - On Dashboard choose **New Item**, then enter some name, choose Maven project and click OK
-- Mark **Github project** and paste URL of repository
-- In **Source Code Management** choose Git and again paste repository URL
+- Mark **Github project** and paste URL of this repository
+- In **Source Code Management** choose Git and again paste the repository URL
 - In **Branches to build** type `*/main`
 - In **Build Trigger** mark **Poll SCM** and enter `* * * * *` in the box below.
 - In **Goals and options** enter `clean install package`
